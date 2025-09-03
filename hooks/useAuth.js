@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-// Dummy auth hook — replace with real backend integration later
+//   Dummy auth hook — replace with real backend integration later
 export function useAuth() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
