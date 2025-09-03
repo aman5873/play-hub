@@ -1,0 +1,29 @@
+:root {
+  --text: #000000;
+  --bg: #ffffff;
+  --title: #007700;
+  --subtitle: #333333;
+  --border: #007700;
+  --accent: #44cc44;
+
+  --hover: #007700; /* ✅ darker green */
+  --hoverBg: #e6ffe6; /* pale green */
+}
+
+.dark {
+  --text: #ffffff;
+  --bg: #000000;
+  --title: #00ff00;
+  --subtitle: #cccccc;
+  --border: #00ff00;
+  --accent: #00ff88;
+
+  --hover: #00ff88; /* ✅ accent shade for dark mode */
+  --hoverBg: #003300; /* deep green */
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
